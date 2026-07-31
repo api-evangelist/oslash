@@ -1,8 +1,25 @@
 aid: oslash
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oslash.png
 name: OSlash
-description: 'OSlash is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: cloud-saas. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'OSlash is a productivity tool that lets teams create short, memorable
+  shortcuts — typed as "o/" followed by a keyword — to instantly find and open their
+  documents, dashboards, and internal tools across 100+ connected apps such as Salesforce,
+  Notion, Jira, GitHub, Figma, Asana, HubSpot, and Linear. Delivered as a Chrome extension
+  with enterprise features like SSO and bank-level encryption, OSlash was backed by
+  Accel. As of this profile the public product is marked "Coming Soon" and the company
+  publishes no developer API, SDK, OpenAPI spec, or documentation surface — this remains
+  an enrichment lead with no scored API artifacts beyond a domain-security probe.'
 url: https://raw.githubusercontent.com/api-evangelist/oslash/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Cloud Saas
+- Productivity
+- Shortcuts
+- Knowledge Management
+- Browser Extension
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,12 @@ maintainers:
 common:
 - type: Website
   url: https://www.oslash.com/
+- type: SignUp
+  url: https://app.oslash.com/
+- type: DomainSecurity
+  url: security/oslash-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
