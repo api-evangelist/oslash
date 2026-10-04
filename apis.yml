@@ -46,7 +46,7 @@ tags:
 - Cloud Saas
 - Productivity
 - Shortcuts
-- Knowledge-Management
+- Knowledge Management
 - Browser Extension
 - Enterprise
 tags_raw:
@@ -57,6 +57,7 @@ tags_raw:
 - Knowledge Management
 - Browser Extension
 - Enterprise
+- Knowledge-Management
 apis: []
 maintainers:
 - FN: Kin Lane
